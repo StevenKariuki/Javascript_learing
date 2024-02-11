@@ -1,0 +1,27 @@
+*{
+    border-radius: 0;
+    margin: 0;
+}
+.image1{
+    border: solid;
+    border-radius: 20px;
+}
+.image1:hover{
+    border: solid;
+    border-radius: 30px;
+    animation-name: moveInImage;
+    animation-duration: 3s;
+}
+@keyframes moveInImage{
+    0%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+}
+h1{
+    align-items: center;
+    color: aquamarine;
+
+}
